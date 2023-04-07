@@ -1,0 +1,303 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url('https://media0.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47rs5zia0by1icojrudd6lf6tilehmt5z4arfiuxxs&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+}
+a{
+    color: gold;
+}
+#NavigationBar{
+    font-size: xx-large;
+    
+}
+.hobbies{ 
+    position: relative;
+    top: 20px;
+    padding-left: 1000px;
+    
+} 
+
+.index{
+    position: relative;
+    top: 45px; 
+    padding-left: 400px;
+   
+}
+
+.achive{
+    padding-left: 650px;
+    padding-top: 30px; 
+    padding-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+}
+.gamejam{
+    padding-left: 320px;
+    font-size: large;
+}
+ol{
+    list-style-type: none;
+}
+.tedtalk{
+    padding-left: 630px;
+    padding-bottom: 20px;
+    padding-top: 30px; 
+    font-size: large;
+}
+.bigdata{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 2px;
+}
+.picbigdata{
+    padding-left:70px;
+    
+}
+.kill{
+    padding-left: 400px;
+    position: relative;
+    bottom: 158px;
+}
+.pickill{
+    padding-left:380px ;
+    position: relative;
+    bottom: 140px;
+}
+.leaders{
+    padding-left: 680px;
+    position: relative;
+    bottom: 300px;
+}
+.picleaders{
+    padding-left: 680px;
+    position: relative;
+    bottom: 280px;
+}
+.stoplearning{
+    padding-left: 980px;
+    position: relative;
+    bottom: 437px;
+}
+.picstoplearning{
+    padding-left: 980px;
+    position: relative;
+    bottom: 420px;
+
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.watch{
+    padding-left: 350px;
+    position: relative;
+    bottom: 400px;
+}
+.fair{
+    padding-left: 350px;
+    position: relative;
+    bottom: 380px;
+    font-size: larger;
+}
+.compgames{
+    padding-left: 250px;
+    position: relative;
+    bottom: 300px;
+    font-size: larger;
+}
+.valokill{
+    padding-left: 250px;
+    position: relative;
+    bottom: 300px;
+    font-size: larger;
+}
+.video{
+    padding-left: 450px;
+    position: relative;
+    bottom: 300px; 
+}
+.contact{
+    padding-left: 1280px;
+    position: relative;
+    bottom: 300px;
+}
+h3{
+    padding-left: 1270px;
+    position: relative;
+    bottom: 300px; 
+    font-size: x-large; 
+}
+.instagit{
+    
+    position: relative;
+    left: 1370px; 
+    font-family: "knight Vision",sans-serif;
+    font-size: large; 
+    position: relative;
+    bottom: 300px;
+}
+.logo{
+    background-color: whitesmoke;
+    border: 5px double gray;
+    border-radius: 70%;
+    
+}
+footer{
+    padding-left: 650px;
+    position: relative;
+    top: 30px;
+}
+p, li,h3{
+    color: #FBF8BE;
+}
+h1{
+    color: #8a2be2;
+}
+
+@media screen and (max-width: 767px) {
+    
+
+    .hobbies {
+        position: static;
+        padding-left: 0;
+    }
+
+    .index {
+        position: static;
+        padding-left: 0;
+    }
+
+    .achive {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .gamejam {
+        padding-left: 0;
+        font-size: medium;
+    }
+
+    .tedtalk {
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        font-size: medium;
+    }
+
+    .bigdata {
+        padding-left: 0;
+        padding-bottom: 0;
+        position: static;
+        top: 0;
+    }
+
+    .picbigdata {
+        padding-left: 0;
+    }
+
+    .kill {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .pickill {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .leaders {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .picleaders {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .stoplearning {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .picstoplearning {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .watch {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .fair {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+        font-size: medium;
+    }
+
+    .compgames {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+        font-size: medium;
+    }
+
+    .valokill {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+        font-size: medium;
+    }
+
+    .video {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    .contact {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+    }
+
+    h3 {
+        padding-left: 0;
+        position: static;
+        bottom: 0;
+        font-size: medium;
+    }
+
+    .instagit {
+        position: static;
+        left: 0;
+        font-size: medium;
+        bottom: 0;
+    }
+    .errorinst{
+        position: relative;
+        left: 300px;
+    }
+    footer {
+        padding-left: 10px;
+        font-size: small;
+        text-align: center;  
+      }
+}
