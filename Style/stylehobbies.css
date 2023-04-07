@@ -1,0 +1,416 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url('https://media0.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47rs5zia0by1icojrudd6lf6tilehmt5z4arfiuxxs&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.about{
+    position: relative;
+    top: 65px;
+    padding-left: 350px;
+    font-size: xx-large;
+
+}
+.home{
+    position: relative;
+    top: 100px;
+    padding-left: 1000px;
+    font-size: xx-large;
+}
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+
+a{
+    color: goldenrod;
+}
+h1{
+    padding-left:700px ;
+}
+.instagit{
+    
+    position: relative;
+    left: 1370px; 
+    font-family: "knight Vision",sans-serif;
+    font-size: large; 
+    position: relative;
+    bottom: 300px;
+}
+.logo{
+    background-color: whitesmoke;
+    border: 5px double gray;
+    border-radius: 70%;
+    
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.loveanime{
+    padding-left: 665px;
+}
+.listofanime{
+    padding-left: 570px;
+}
+.onepiece{
+    padding-left: 110px;
+}
+
+.animepic{
+    border: 10px double gray;
+    border-radius: 10%;
+}
+
+.hxh{
+    padding-left: 500px;
+    position: relative;
+    bottom: 267px;
+}
+.naruto{
+    padding-left: 900px;
+    position: relative;
+    bottom: 510px;
+} 
+
+  
+.txtop{
+    padding-left: 175px;
+    position: relative;
+    top: 268px;
+    font-size: x-large;
+}
+.txthxh{
+    padding-left: 530px;
+    
+    font-size: x-large;
+}
+.txtnaruto{
+    padding-left: 1030px;
+    position: relative;
+    bottom: 268px;
+    font-size: x-large;
+}
+
+audio{
+    padding-left: 570px;
+    position: relative;
+    bottom: 350px;
+
+}
+.txtaot{
+    padding-left: 620px;
+    position: relative;
+    bottom: 400px;
+    font-size: x-large;
+}
+.lotgames{
+    padding-left: 600px;
+    position: relative;
+    bottom: 300px;
+}
+.games{
+    padding-left: 565px;
+    position: relative;
+    bottom: 300px;
+}
+.listgames{
+
+    list-style-type: upper-roman;
+    padding-left: 655px;
+    position: relative;
+    bottom: 300px;
+}
+.music_movies{
+    font-size: x-large;
+    padding-left: 550px;
+    position: relative;
+    bottom: 300px;
+
+}
+.favmovies{
+    padding-left: 540px;
+    position: relative;
+    bottom: 300px;
+}
+.linksmovies{
+    list-style-type:square;
+    padding-left: 640px;
+    position: relative;
+    bottom: 300px;
+    font-size: large;
+}
+.countries{
+    list-style-type:square;
+    padding-left: 580px;
+    position: relative;
+    bottom: 300px;
+    font-size: x-large;
+}
+table{
+    position: relative;
+    bottom: 300px;
+    left: 610px;
+    font-size: larger;
+    background-color:whitesmoke;
+    color: black;
+}
+h3{
+    padding-left: 1260px;
+    position: relative;
+    bottom: 300px;
+}
+.contact{
+    padding-left: 1260px;
+    position: relative;
+    bottom: 300px;
+}
+footer{
+    padding-left: 650px;
+    position: relative;
+    top: 30px;
+    
+
+}
+.feedback{
+    padding-left: 580px;
+}
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  label, input, textarea {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+  }
+  label {
+    font-weight: bold;
+  }
+  input, textarea {
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+  }
+  button[type="submit"] {
+    background-color: #8a2be2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  input[type="text"], input[type="email"], textarea {
+    font-size: 16px;
+  }
+  label[for="name"] {
+    font-style: italic;
+    color: #ffc0cb;
+    padding-left: 160px;
+    padding-bottom: 10px;
+    font-size: large;
+  }
+  
+  input[type="text"][border], input[type="email"][border], textarea[border] {
+    border: 2px solid #ff0000;
+  }
+  form > *:first-child {
+    margin-top: 0;
+  }
+  #email ~ label, #email ~ input[type="text"] {
+    font-style: italic;
+    color: #ffc0cb;
+    padding-left: 240px;
+    padding-top: 20px;
+    font-size: large;
+  }
+  #name + label, #name + input[type="email"] {
+    font-style: italic;
+    color: pink;
+    padding-left: 190px;
+    padding-top: 20px;
+    font-size: large;
+  }
+  textarea::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  button[type="reset"]{
+    background-color: #04e80c;
+    position: relative;
+    top: 20px;
+  }
+  .button{
+    position: relative;
+    bottom: 90px;   
+    padding-left: 650px;
+  }
+  p,h1,h3,h2{
+    color: #FBF8BE;
+  }
+ 
+  @media only screen and (max-width: 767px){
+    .home{
+        position: static;
+        padding-left: 0;
+    }
+    .about{
+        position: static;
+        padding-right: 0;
+        padding-bottom: 100px;
+    }
+
+ul{
+    position: static;
+        padding-left: 0;
+}
+ol{
+    position: static;
+        padding-left: 0;
+}
+
+a{
+    position: static;
+        padding-left: 0;
+}
+h1{
+    position: static;
+        padding-left: 0;
+}
+.instagit{
+    
+    position: static;
+    padding-left: 0;
+}
+.logo{
+    position: static;
+    padding-left: 0;
+    
+}
+
+p{
+    position: static;
+        padding-left: 0;
+}
+.loveanime{
+    position: static;
+        padding-left: 0;
+}
+.listofanime{
+    position: static;
+        padding-left: 0;
+}
+.onepiece{
+    position: static;
+        padding-left: 0;
+}
+
+.animepic{
+    position: static;
+    padding-left: 0;
+}
+
+.hxh{
+    position: static;
+        padding-left: 0;
+}
+.naruto{
+    position: static;
+        padding-left: 0;
+} 
+
+  
+.txtop{
+    position: static;
+        padding-left: 0;
+}
+.txthxh{
+    position: static;
+        padding-left: 0;
+}
+.txtnaruto{
+    position: static;
+        padding-left: 0;
+}
+
+audio{
+    position: static;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.txtaot{
+    position: static;
+    padding-left: 0;
+}
+.lotgames{
+    position: static;
+        padding-left: 0;
+}
+.games{
+    position: static;
+        padding-left: 0;
+}
+.listgames{
+
+    position: static;
+    padding-left: 0;
+}
+.music_movies{
+    position: static;
+        padding-left: 0;
+
+}
+.favmovies{
+    position: static;
+    padding-left: 0;
+}
+.linksmovies{
+    position: static;
+    padding-left: 0;
+}
+.countries{
+    position: static;
+        padding-left: 0;
+}
+table{
+    position: static;
+    padding-left: 0;
+}
+h3{
+    position: static;
+        padding-left: 0;
+}
+.contact{
+    position: static;
+    padding-left: 0;
+}
+footer{
+    position: static;
+        padding-left: 0;
+    
+
+}
+.feedback{
+    position: static;
+        padding-left: 0;
+}
+.button{
+    position: static;
+        padding-left: 0;
+  }
+
+
+}

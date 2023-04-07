@@ -1,0 +1,238 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: url('https://media0.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47rs5zia0by1icojrudd6lf6tilehmt5z4arfiuxxs&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1{
+    padding-left: 550px;
+    padding-bottom: 50px;
+    
+
+}
+#NavigationBar{
+    padding-left: 500px;
+    position: relative; 
+    font-size: x-large; 
+}
+
+.picofme{
+    position: relative;
+    left: 650px;
+    border: 5px solid gray;
+    border-radius: 50%;  
+}
+.picofme:hover{
+    box-shadow: 2px 2px 70px #0dd5d8;
+}
+
+.hobbies{
+    padding-left: 300px;
+    position: relative; 
+    
+} 
+a{
+    color: #ffd700;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,h3,p,li{
+   color:  #FBF8BE;
+
+}
+.logo{
+    background-color: #f5f5f5;
+    border: 5px double #808080;
+    border-radius: 70%;
+    
+    
+}
+.instagit{
+    
+    position: relative;
+    left: 1370px; 
+    font-family: "knight Vision",sans-serif;
+    font-size: large;
+    
+}
+footer{
+    color: whitesmoke;
+    padding-left: 650px;
+    padding-top: 70px;
+    font-style: oblique;
+    font-size: large;
+}
+h3{
+    padding-left: 1330px;
+    font-size: larger;
+}
+.email{
+    padding-left: 1360px;
+    padding-bottom: 20px;
+}
+.me{
+    padding-left: 470px;
+    list-style: none;
+}
+.bangladesh{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    
+}
+.BDbig{
+    font-size: x-large; 
+    font-style: oblique;
+}
+.DalU{
+    font-size: large; 
+    font-style: oblique;
+}
+.aboutp{
+    font-size: large; 
+    font-style: oblique;
+}
+.hi{
+    padding-left: 725px;
+    font-size: xx-large;  
+}
+.intro{
+    padding-left: 420px;
+    font-size: xx-large;
+     
+}
+/* For phone */
+@media only screen and (max-width: 767px) {
+    h1{
+      padding-left: 50px;
+      text-align: center;
+    }
+    .hi{
+      position: relative;
+      right: 500px;
+      text-align: center;
+      
+    }
+    .intro{
+      position: relative;
+      right: 10px;
+      text-align: center;
+      padding-left: 10px; 
+    }
+    .picofme{
+      left: auto;
+      right: 50%;
+      transform: translateX(50%);
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .hobbies{
+      position: relative;
+      right: 400px;
+      bottom: 23px;
+
+    }
+    .about{
+      position: relative;
+      right: 500px;
+    }
+    
+    .me{
+      padding-left: 50px;
+    }
+    .bangladesh{
+      padding-left: 50px;
+    }
+    h3{
+      padding-left: 50px;
+    }
+  .picofme{
+     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer {
+    padding-left: 10px;
+    font-size: small;
+    text-align: center;  
+  }
+  .ifanyerror {
+    order: 1;
+  }
+      
+  .instagit {
+    order: 2;
+  }
+      
+  .contact {
+    order: 3;
+    text-align: center;
+  }
+      
+  .email {
+    order: 4;
+    text-align: center;
+    position: relative;
+    right: 1250px;
+  }
+  .moveinstagit{
+    position: relative;
+    right: 1250px;
+  }
+}
+  /* Tablet */
+/* @media screen and (max-width: 768px) {
+    h1 {
+      padding-left: 200px;
+    }
+  
+    #NavigationBar {
+      padding-left: 150px;
+    }
+  
+    .picofme {
+      left: 250px;
+    }
+  
+    .hobbies {
+      padding-left: 100px;
+    }
+  
+    footer {
+      padding-left: 150px;
+    }
+  
+    h3 {
+      padding-left: 230px;
+    }
+  
+    .email {
+      padding-left: 260px;
+    }
+  
+    .me {
+      padding-left: 70px;
+    }
+  
+    .bangladesh {
+      padding-left: 20px;
+    }
+  
+    .hi {
+      padding-left: 350px;
+    }
+  
+    .intro {
+      padding-left: 150px;
+    }
+  } */
+
+
+
+
